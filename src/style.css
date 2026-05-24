@@ -306,13 +306,13 @@ h2 {
   width: min(46%, 220px);
   /* Keep a square container for a circular avatar */
   aspect-ratio: 1 / 1;
-  padding: 8px;
-  display: grid;
-  gap: 12px;
-  border: 1px solid rgba(148, 163, 184, 0.16);
-  border-radius: 20px;
-  background: rgba(4, 8, 17, 0.48);
-  backdrop-filter: blur(18px);
+  padding: 0;
+  display: block;
+  gap: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  backdrop-filter: none;
   z-index: 40;
 }
 
@@ -321,8 +321,8 @@ h2 {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.08);
-  box-shadow: 0 8px 28px rgba(2,6,23,0.6);
+  border: none;
+  box-shadow: none;
 }
 
 .portrait-caption {
