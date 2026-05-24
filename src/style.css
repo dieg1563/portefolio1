@@ -396,15 +396,14 @@ h2 {
 }
 
 .scene-overlay {
-  position: absolute;
-  left: 22px;
-  bottom: 22px;
-  max-width: 300px;
-  padding: 18px 18px 16px;
-  border: 1px solid rgba(148, 163, 184, 0.16);
-  border-radius: 20px;
-  background: rgba(4, 8, 17, 0.44);
-  backdrop-filter: blur(18px);
+  position: static;
+  max-width: 360px;
+  margin: 12px 0 0 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 16px;
+  background: rgba(4, 8, 17, 0.56);
+  backdrop-filter: blur(12px);
 }
 
 .scene-kicker,

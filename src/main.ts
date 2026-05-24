@@ -304,13 +304,14 @@ app.innerHTML = `
         <div class="hero-visual reveal">
           <div class="scene-frame">
             <canvas id="portfolio-scene" aria-label="Scène 3D du portfolio"></canvas>
-            <div class="scene-overlay">
-              <p class="scene-kicker">Focus</p>
-              <p class="scene-title">Cybersecurity mindset</p>
-              <p class="scene-text">
-                Un univers visuel sobre, lumineux et dynamique pour accompagner le contenu.
-              </p>
-            </div>
+          </div>
+
+          <div class="scene-overlay reveal">
+            <p class="scene-kicker">Focus</p>
+            <p class="scene-title">Cybersecurity mindset</p>
+            <p class="scene-text">
+              Un univers visuel sobre, lumineux et dynamique pour accompagner le contenu.
+            </p>
           </div>
 
           <!-- portrait moved to topbar to avoid overlapping the 3D scene -->
