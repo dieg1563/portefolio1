@@ -269,7 +269,13 @@ app.innerHTML = `
         <a href="#contact">Contact</a>
         <a href="#interets">Intérêts</a>
       </nav>
-      <a class="topbar-status" href="/cv-diego-macia.pdf" download>Télécharger le CV PDF</a>
+      </nav>
+      <div class="topbar-right">
+        <div class="topbar-portrait">
+          <img src="/portrait.jpg" alt="Diego Macia" />
+        </div>
+        <a class="topbar-status" href="/cv-diego-macia.pdf" download>Télécharger le CV PDF</a>
+      </div>
     </header>
 
     <main>
@@ -307,12 +313,7 @@ app.innerHTML = `
             </div>
           </div>
 
-          <div class="portrait-card">
-            <img src="/portrait.jpg" alt="Portrait professionnel de Diego Macia" />
-            <div class="portrait-info">
-              <div class="portrait-name">Diego Macia</div>
-            </div>
-          </div>
+          <!-- portrait moved to topbar to avoid overlapping the 3D scene -->
 
           <div class="hero-stats">
             ${renderStats}
