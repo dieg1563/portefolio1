@@ -298,19 +298,20 @@ app.innerHTML = `
         <div class="hero-visual reveal">
           <div class="scene-frame">
             <canvas id="portfolio-scene" aria-label="Scène 3D du portfolio"></canvas>
-            <div class="portrait-card">
-              <img src="/portrait.jpg" alt="Portrait professionnel de Diego Macia" />
-              <div>
-                <p class="card-kicker">Photo pro</p>
-                <p class="portrait-caption">Photo professionnelle fournie — recadrée en rond.</p>
-              </div>
-            </div>
             <div class="scene-overlay">
               <p class="scene-kicker">Focus</p>
               <p class="scene-title">Cybersecurity mindset</p>
               <p class="scene-text">
                 Un univers visuel sobre, lumineux et dynamique pour accompagner le contenu.
               </p>
+            </div>
+          </div>
+
+          <div class="portrait-card">
+            <img src="/portrait.jpg" alt="Portrait professionnel de Diego Macia" />
+            <div>
+              <p class="card-kicker">Photo pro</p>
+              <p class="portrait-caption">Photo professionnelle fournie — recadrée en rond.</p>
             </div>
           </div>
 

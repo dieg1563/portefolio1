@@ -313,6 +313,7 @@ h2 {
   border-radius: 20px;
   background: rgba(4, 8, 17, 0.48);
   backdrop-filter: blur(18px);
+  z-index: 40;
 }
 
 .portrait-card img {
@@ -320,6 +321,8 @@ h2 {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 28px rgba(2,6,23,0.6);
 }
 
 .portrait-caption {
