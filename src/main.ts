@@ -309,6 +309,9 @@ app.innerHTML = `
 
           <div class="portrait-card">
             <img src="/portrait.jpg" alt="Portrait professionnel de Diego Macia" />
+            <div class="portrait-info">
+              <div class="portrait-name">Diego Macia</div>
+            </div>
           </div>
 
           <div class="hero-stats">
