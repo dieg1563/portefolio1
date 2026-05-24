@@ -309,10 +309,6 @@ app.innerHTML = `
 
           <div class="portrait-card">
             <img src="/portrait.jpg" alt="Portrait professionnel de Diego Macia" />
-            <div>
-              <p class="card-kicker">Photo pro</p>
-              <p class="portrait-caption">Photo professionnelle fournie — recadrée en rond.</p>
-            </div>
           </div>
 
           <div class="hero-stats">
