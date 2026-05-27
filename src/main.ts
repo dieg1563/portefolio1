@@ -41,9 +41,9 @@ const profilePills: Pill[] = [
 ]
 
 const contactItems: ContactItem[] = [
-  { label: 'Email', value: 'contact@diegomacia.dev', href: 'mailto:contact@diegomacia.dev' },
-  { label: 'GitHub', value: 'github.com/diego-macia', href: 'https://github.com/' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/diego-macia', href: 'https://www.linkedin.com/' },
+  { label: 'Email', value: 'diego.macia.c@icloud.com', href: 'mailto:diego.macia.c@icloud.com' },
+  { label: 'GitHub', value: 'github.com/dieg1563', href: 'https://github.com/dieg1563' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/diego-macia', href: 'https://www.linkedin.com/in/diego-macia-253938411/' },
   { label: 'Localisation', value: 'EPITECH, France' },
 ]
 
@@ -130,10 +130,6 @@ const experienceOutsideSchool: ExperienceItem[] = [
   {
     title: 'Projets personnels',
     text: 'Scripts, essais et expérimentations pour renforcer l’autonomie et tester de nouvelles approches techniques.',
-  },
-  {
-    title: 'Communautés et événements',
-    text: 'Espace prévu pour tes associations, ateliers, conférences ou activités hors école à intégrer au fur et à mesure.',
   },
 ]
 
@@ -306,13 +302,7 @@ app.innerHTML = `
             <canvas id="portfolio-scene" aria-label="Scène 3D du portfolio"></canvas>
           </div>
 
-          <div class="scene-overlay reveal">
-            <p class="scene-kicker">Focus</p>
-            <p class="scene-title">Cybersecurity mindset</p>
-            <p class="scene-text">
-              Un univers visuel sobre, lumineux et dynamique pour accompagner le contenu.
-            </p>
-          </div>
+          
 
           <!-- portrait moved to topbar to avoid overlapping the 3D scene -->
 
@@ -347,10 +337,6 @@ app.innerHTML = `
         <div class="section-heading reveal">
           <p class="eyebrow">Apprentissage et progression</p>
           <h2>Ce que j’ai appris et comment j’ai progressé</h2>
-          <p>
-            Cette partie doit montrer la progression sur l’année, pas seulement les résultats.
-            Elle relie les projets aux compétences développées et aux prochains objectifs.
-          </p>
         </div>
 
         <div class="learning-grid">
@@ -372,10 +358,7 @@ app.innerHTML = `
         <div class="section-heading reveal">
           <p class="eyebrow">Compétences techniques</p>
           <h2>Une base solide à faire monter en puissance</h2>
-          <p>
-            Le positionnement actuel est volontairement transparent: niveau initial sur plusieurs
-            langages, avec une envie claire de progresser rapidement sur le fond et la méthode.
-          </p>
+          
         </div>
 
         <div class="skills-grid">
@@ -417,10 +400,7 @@ app.innerHTML = `
         <div class="section-heading reveal">
           <p class="eyebrow">Expériences hors école</p>
           <h2>Ce que je développe en dehors des projets académiques</h2>
-          <p>
-            Cette section est importante pour montrer une curiosité continue et des expériences qui
-            dépassent le cadre purement scolaire.
-          </p>
+          
         </div>
 
         <div class="experiences-grid">
@@ -465,26 +445,15 @@ app.innerHTML = `
               <textarea name="message" rows="5" placeholder="Expliquez votre besoin" required></textarea>
             </label>
             <button class="button button-primary" type="submit">Préparer l'email</button>
-            <p class="form-note">Sans backend, le formulaire ouvre votre client mail avec les données saisies.</p>
           </form>
         </article>
       </section>
 
-      <section class="section">
-        <article class="panel closing-panel reveal">
-          <p class="eyebrow">Version à compléter</p>
-          <h2>Langues, stages, certifications et liens complémentaires</h2>
-          <p>
-            Le site couvre maintenant les exigences essentielles. Il reste des champs à enrichir
-            avec tes vraies coordonnées, tes langues, tes certifications et d’autres projets si tu
-            veux le rendre encore plus personnel.
-          </p>
-        </article>
-      </section>
+      
     </main>
 
     <footer class="footer">
-      <p>Portfolio Three.js pour Diego Macia · EPITECH Bachelor</p>
+      <p>Diego Macia · EPITECH Bachelor</p>
       <a href="#hero">Retour en haut</a>
     </footer>
   </div>
@@ -508,7 +477,7 @@ if (contactForm) {
     const subject = encodeURIComponent(`Contact portfolio - ${name}`)
     const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\n\n${message}`)
 
-    window.location.href = `mailto:contact@diegomacia.dev?subject=${subject}&body=${body}`
+    window.location.href = `mailto:diego.macia.c@icloud.com?subject=${subject}&body=${body}`
   })
 }
 
