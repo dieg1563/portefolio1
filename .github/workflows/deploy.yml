@@ -19,9 +19,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: |
-          npx tsc
-          npx vite build --base ./
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
