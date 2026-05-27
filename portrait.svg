@@ -1,0 +1,50 @@
+<svg width="800" height="980" viewBox="0 0 800 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="103" y1="49" x2="725" y2="907" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F" />
+      <stop offset="0.48" stop-color="#10233D" />
+      <stop offset="1" stop-color="#050816" />
+    </linearGradient>
+    <linearGradient id="face" x1="250" y1="238" x2="551" y2="628" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F3FF" />
+      <stop offset="0.47" stop-color="#CDE7FF" />
+      <stop offset="1" stop-color="#95B8E8" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="209" y1="617" x2="576" y2="953" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1A2E" />
+      <stop offset="1" stop-color="#03050B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="193" y1="158" x2="606" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BFF4FF" />
+      <stop offset="0.5" stop-color="#8FDCFF" />
+      <stop offset="1" stop-color="#7AA2FF" />
+    </linearGradient>
+    <filter id="shadow" x="140" y="120" width="520" height="760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="800" height="980" rx="44" fill="url(#bg)"/>
+  <circle cx="650" cy="120" r="118" fill="#7AA2FF" fill-opacity="0.18"/>
+  <circle cx="150" cy="840" r="120" fill="#8FDCFF" fill-opacity="0.14"/>
+  <path d="M130 786C223 718 303 684 399 684C495 684 574 718 670 786" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-opacity="0.6"/>
+  <g filter="url(#shadow)">
+    <path d="M258 804V614C258 541 307 482 380 482H418C491 482 540 541 540 614V804H258Z" fill="url(#shirt)"/>
+    <path d="M278 544C287 447 313 352 400 352C487 352 514 447 522 544C527 616 469 676 400 676C331 676 273 616 278 544Z" fill="url(#face)"/>
+    <path d="M309 462C309 381 349 318 400 318C451 318 491 381 491 462C491 496 479 530 458 554C439 575 421 582 400 582C379 582 361 575 342 554C321 530 309 496 309 462Z" fill="url(#face)"/>
+    <path d="M322 448C322 382 354 339 400 339C446 339 478 382 478 448C478 478 469 502 452 522C435 542 418 550 400 550C382 550 365 542 348 522C331 502 322 478 322 448Z" fill="#F4FAFF" fill-opacity="0.78"/>
+    <path d="M343 437C355 405 374 388 400 388C426 388 445 405 457 437" stroke="#101827" stroke-width="16" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M352 448C364 433 381 425 400 425C419 425 436 433 448 448" stroke="#101827" stroke-width="12" stroke-linecap="round" stroke-opacity="0.35"/>
+    <circle cx="356" cy="468" r="9" fill="#101827" fill-opacity="0.72"/>
+    <circle cx="444" cy="468" r="9" fill="#101827" fill-opacity="0.72"/>
+    <path d="M377 495C387 504 393 508 400 508C407 508 413 504 423 495" stroke="#101827" stroke-width="10" stroke-linecap="round" stroke-opacity="0.52"/>
+    <path d="M273 432C290 338 347 281 400 281C454 281 509 338 527 432C520 366 497 314 462 284C447 270 425 260 400 260C375 260 353 270 338 284C303 314 280 366 273 432Z" fill="#0E1A2E"/>
+    <path d="M302 313C331 298 362 291 400 291C438 291 469 298 498 313" stroke="url(#accent)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M330 309C353 300 377 296 400 296C423 296 447 300 470 309" stroke="#E7F3FF" stroke-width="6" stroke-linecap="round" stroke-opacity="0.42"/>
+  </g>
+  <rect x="184" y="96" width="432" height="98" rx="49" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="400" y="141" text-anchor="middle" fill="#E7F3FF" font-family="Manrope, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="4">PROFIL PRO</text>
+  <text x="400" y="170" text-anchor="middle" fill="#B8DFFF" font-family="IBM Plex Mono, monospace" font-size="18" letter-spacing="2">Diego Macia</text>
+  <rect x="206" y="838" width="388" height="74" rx="23" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="400" y="873" text-anchor="middle" fill="#E7F3FF" font-family="Manrope, Arial, sans-serif" font-size="23" font-weight="600">Étudiant EPITECH · Cybersécurité</text>
+  <text x="400" y="902" text-anchor="middle" fill="#B8DFFF" font-family="IBM Plex Mono, monospace" font-size="15" letter-spacing="1.5">Portfolio Three.js</text>
+</svg>
